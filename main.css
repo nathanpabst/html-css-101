@@ -1,0 +1,142 @@
+/* GENERAL STYLES___________________________ */
+
+* { padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #BEBCAD;
+    position: relative;
+}
+h1 {
+    padding-left: 15px;
+    line-height: 30px;
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,0.1) 2px,
+        rgba(0,0,0,0.1) 4px
+    )
+}
+ul {
+    list-style: none;
+}
+li {
+    border-bottom: dotted 1px black;
+    margin: 10px 0 0 8px;
+}
+h3 {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #574D33;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.left-article p {
+    margin: 5px 40px 15px 40px;
+    text-align: justify;
+    color: #786A47;
+}
+footer {
+    background-color: #679DC0;
+    line-height: 34px;
+    text-align: center;
+}
+/* GRID STYLES_______________________________ */
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.column-container {
+    display: table;
+}
+.left-column {
+    width: 70%;
+    background-color: #E9E9E7; 
+}
+
+.right-column {
+    width: 30%;
+    background-color: #998A67;
+}
+
+.column {
+    display: table-cell;
+}
+
+/* IMAGES__________________________________________*/
+
+img {
+    width: 100%;
+    display: inherit;
+}
+/* RIGHT COLUMN_______________________________________*/
+.right-column li a {
+    font-weight: bold;
+    color: #E5D9BC;
+    list-style-position: inside;
+    display: list-item;
+    list-style-type: disc;
+}
+.right-column li a:hover {
+    color: #7ECDFF;
+    }
+li a.designer-name {
+    font-weight: normal;
+    color: #595339;
+    display: inline;
+    list-style: none;
+}    
+.designer-name li a.designer-name:hover {
+    color: #7ECDFF;
+}
+/* CUSTOM ____________________________________________*/
+.whole-div-shadow {
+    box-shadow: 0 0 10px #999999;
+    color: #574D33;
+}
+
+.float-left { 
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.float-right {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#summary p {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+#authors p {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 150px;
+    margin-bottom: 0;
+}
+#authors {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/nss-evening-cohort-7/css-lecture/master/grass.jpg);
+}
+.title {
+    font-size: 25px;
+    color: #D8D6C7;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    position: absolute;
+    left: -220px;
+    top: 260px;
+}
+.footer-claw {
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+}
